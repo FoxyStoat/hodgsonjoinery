@@ -1,0 +1,11 @@
+# hodgsonjoinery
+
+Personal project - website for my dad's joinery and locksmith business
+
+Aim is fully responsive website, starting with mobile first.
+
+Using:
+
+* HTML
+* CSS
+* JavaScript
