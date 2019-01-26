@@ -42,11 +42,56 @@ HEADER
 	background: repeating-linear-gradient(
   90deg,
   rgba(0, 0, 0, 0.5),
-  rgba(0, 0, 0, 0.5) .3em,
-  rgba(0, 0, 0, 0.4) .4em,
-  rgba(0, 0, 0, 0.4) .5em),
+  rgba(0, 0, 0, 0.5) .3rem,
+  rgba(0, 0, 0, 0.4) .4rem,
+  rgba(0, 0, 0, 0.4) .5rem),
 	url(..//images/simon-caspersen-b-w-524699-unsplash.jpg) no-repeat fixed;
 	height: 70vh;
 	background-size: cover;
 	background-position: bottom;
+}
+
+/*----------------------------------
+NAVIGATION
+------------------------------------*/
+
+.navbar {
+	font-size: 1.8rem;
+	background-color: #000;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding-bottom: 1.2rem;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+}
+
+.main-nav {
+	list-style-type: none;
+	display: none;
+}
+
+.main-nav li {
+	text-align: center;
+	margin: 1.8rem auto;
+}
+
+.navbar-toggle {
+	position: absolute;
+	top: 2rem;
+	right: 2rem;
+	cursor: pointer;
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 2.5rem;
+}
+
+.active {
+	display: block;
+}
+
+.nav-link a {
+  text-decoration: none;
+	text-transform: uppercase;
+  padding: 1.8rem;
+	cursor: pointer;
+	color: #fff;
 }
