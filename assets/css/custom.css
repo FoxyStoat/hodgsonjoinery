@@ -15,7 +15,7 @@ Global Stlyes
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; //1 rem = 10px, 10px/16(browser default) = 62.5%
+  font-size: 62.5%; /* 1 rem = 10px, 10px/16(browser default) = 62.5% */
 }
 
 body {
@@ -35,8 +35,8 @@ NAVIGATION
 .navbar {
 	font-size: 1.8rem;
 	background-color: #000;
-	border: 1px solid rgba(0, 0, 0, 0.2);
-	padding-bottom: 1.2rem;
+	border: 2px solid rgba(92, 91, 91, 0.2);
+	/* padding-bottom: 1.2rem; */
 	position: fixed;
 	z-index: 10;
 	width: 100%;
@@ -58,7 +58,7 @@ NAVIGATION
 	right: 3.5rem;
 	cursor: pointer;
 	color: rgba(255, 255, 255, 0.9);
-	font-size: 2.5rem;
+	font-size: 2rem;
 }
 
 .active {
@@ -78,11 +78,10 @@ HEADER
 ------------------------------------*/
 
 .img-logo {
-	width: 15rem;
+	width: 12rem;
+	padding: 1.2rem;
 }
 
-/*simon-caspersen-b-w-524699-unsplash*/
-/*simon-caspersen-524699-unsplash.jpg*/
 .header-img {
 	position: relative;
 	width: 100%;
@@ -119,9 +118,9 @@ HEADER
 	background-color: #df744a;
   border-radius: 8px;
   color: #fff;
-  font-size: 1.8rem;
-	padding: 0.8em;
-  margin: 2.5rem;
+  font-size: 1.6rem;
+	padding: 1rem;
+  margin: 2rem;
   border: 0;
 	cursor: pointer;
 	box-shadow: 7px 7px 7px rgba(0, 0, 0,0.6);
