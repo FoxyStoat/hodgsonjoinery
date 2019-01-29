@@ -134,7 +134,7 @@ Photo by Simon Caspersen on Unsplash
 
 #hero-btn,
 .btn {
-	background-color: #279af1;
+	background-color:#004281;
   border-radius: 8px;
   color: #fff;
   font-size: 1.6rem;
@@ -144,6 +144,12 @@ Photo by Simon Caspersen on Unsplash
 	cursor: pointer;
 	box-shadow: 7px 7px 7px rgba(0, 0, 0,0.6);
 	display: inline-block;
+	transition: all .3s ease-in-out;
+}
+
+#hero-btn:hover {
+	transform: scale(1.1);
+	background: #279af1;
 }
 
 /*----------------------------------
