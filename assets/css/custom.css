@@ -73,6 +73,10 @@ NAVIGATION
 	color: #fff;
 }
 
+.nav-link a:hover {
+	color: #279af1;
+}
+
 /*----------------------------------
 HEADER
 ------------------------------------*/
@@ -82,6 +86,10 @@ HEADER
 	padding: 1.2rem;
 }
 
+/*
+Header-image
+Photo by Simon Caspersen on Unsplash
+*/
 .header-img {
 	position: relative;
 	width: 100%;
@@ -90,13 +98,13 @@ HEADER
 	background: repeating-linear-gradient(
   90deg,
   rgba(0, 0, 0, 0.5),
-  rgba(0, 0, 0, 0.5) .3rem,
-  rgba(0, 0, 0, 0.4) .4rem,
-  rgba(0, 0, 0, 0.4) .5rem),
+  rgba(0, 0, 0, 0.5) .2rem,
+  rgba(0, 0, 0, 0.4) .3rem,
+  rgba(0, 0, 0, 0.4) .4rem),
 	url(..//images/simon-caspersen-b-w-524699-unsplash.jpg) no-repeat fixed;
-	height: 70vh;
+	height: 100vh;
 	background-size: cover;
-	background-position: bottom;
+	background-position: center;
 }
 
 .hero-container {
@@ -115,7 +123,7 @@ HEADER
 
 #hero-btn,
 .btn {
-	background-color: #df744a;
+	background-color: #279af1;
   border-radius: 8px;
   color: #fff;
   font-size: 1.6rem;
