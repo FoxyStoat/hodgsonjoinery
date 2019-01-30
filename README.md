@@ -9,3 +9,7 @@ Using:
 * HTML
 * CSS
 * JavaScript
+
+### Screenshots of Website so far:
+
+![Screenshot of website header](screenshot-hodgson-joinery-header.png "Screenshot of website header")
