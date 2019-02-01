@@ -178,6 +178,10 @@ Photo by Simon Caspersen on Unsplash
 	font-size: 1.6rem;
 }
 
+.social-links:visited {
+	color: #279af1;
+}
+
 /*----------------------------------
 SCROLL-DOWN BUTTON
 ------------------------------------*/
