@@ -137,6 +137,12 @@ Photo by Simon Caspersen on Unsplash
 	font-weight: bold;
 }
 
+.tel-num {
+	font-size: 1.6rem;
+	color: rgb(216, 214, 214);
+	margin-top: 1rem;
+}
+
 #hero-btn,
 .btn {
 	background-color:#279af1;
@@ -144,7 +150,7 @@ Photo by Simon Caspersen on Unsplash
   color: #fff;
   font-size: 1.6rem;
 	padding: 1rem;
-  margin: 2rem;
+  margin: 0.8rem;
   border: 0;
 	cursor: pointer;
 	box-shadow: 7px 7px 7px rgba(0, 0, 0,0.6);
