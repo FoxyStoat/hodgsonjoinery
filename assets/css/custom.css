@@ -132,15 +132,16 @@ Photo by Simon Caspersen on Unsplash
 	padding: 2rem;
 }
 
-.hero-paragrapgh {
-	font-size: 1.6rem;
-	font-weight: bold;
+.hero-paragrapgh,
+.tel-num {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: rgb(221, 221, 221);
 }
 
 .tel-num {
-	font-size: 1.6rem;
-	color: rgb(216, 214, 214);
 	margin-top: 1rem;
+	color: #fff;
 }
 
 #hero-btn,
