@@ -95,6 +95,7 @@ HEADER
 .img-logo {
 	width: 12rem;
 	padding: 1.2rem;
+	user-select: none;
 }
 
 /*
