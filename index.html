@@ -16,14 +16,14 @@
 	<header id="header" class="header">
 		<nav id="nav-bar" class="navbar">
 			<!-- Mobile Navigation -->
-			<span class="navbar-toggle" id="js-navbar-toggle">
+			<button class="navbar-toggle" id="js-navbar-toggle">
 				<i class="fa fa-bars icon" title="mobile navigation toggle"> Menu</i>
-			</span>
+			</button>
 			<!-- Logo -->
 			<img class="img-logo" src="assets/images/logo.svg" alt="company logo">
 			<!-- Navigation -->
 			<ul id="js-menu" class="main-nav">
-				<li class="nav-link"><a href="#about">HOME</a></li>
+				<li class="nav-link"><a href="#header">HOME</a></li>
 				<li class="nav-link"><a href="#about">ABOUT</a></li>
 				<li class="nav-link"><a href="#gallery">GALLERY</a></li>
 				<li class="nav-link"><a href="#gallery">SERVICES</a></li>
@@ -45,7 +45,7 @@
 			<a class="tel-num">Telephone: <span>01234 56789</span></a>
 			<a id ="hero-btn" class="btn btn-tel-call" role="button" href="tel:+0123456789"><i class="fa fa-phone" aria-hidden="true">
 				</i> Free Quote</a>
-			<a href="#main"><i class="fa fa-angle-down scroll-down" title="scroll down"></i></a>
+			<a href="#main"><i class="fa fa-angle-down scroll-down" title="scroll down" tabindex="0"></i></a>
 		</div>
 		<!-- Social media links -->
 		<div class="social-media-links">
@@ -57,6 +57,15 @@
 			<a class="social-links" href="#" target="blank"><i class="fa fa-google" aria-hidden="true"></i><span class="sr-only">Visit Google profile for Gary Hodgson</span></a>
 		</div>
 	</header>
+
+	<main id="#main" class="main">
+		<!-- About Section -->
+		<section id="about" class="section section-about">
+<!-- 			<img class="about-image-logo" src="assets/images/logo.svg" alt="hodgson joinery logo"> -->
+			<h2>Welcome to Hodgson Joinery</h2>
+			<p class="text">With over 20 years of experience in the carpentry trade, <span class="span span-about">Hodgson Joinery</span> is based in Hull and provides workmanship for the domestic and commercial markets. In need of a new wardrobe, kitchen installation, an attic renovation or any other skilled woodwork? Look no further! No job too big or small.</p>
+		</section>
+	</main>
 
 
 		<script src="assets/scripts/custom.js"></script>
