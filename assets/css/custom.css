@@ -269,3 +269,15 @@ ABOUT SECTION
 .span-about {
 	color: #279af1;
 }
+
+.about-photos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.about-img {
+	width: 33%;
+	height: 25%;
+}
