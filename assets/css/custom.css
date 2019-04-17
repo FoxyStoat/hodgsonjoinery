@@ -268,3 +268,27 @@ ABOUT SECTION
 	color: #279af1;
 	font-style: italic;
 }
+
+.about-link:link,
+.about-link:visited {
+		font-size: 1.5rem;
+		color: #0a5994;
+		display: inline-block;
+		text-decoration: none;
+		border-bottom: 1px solid #0a5994;
+		padding: 3px;
+		transition: all .2s;
+	}
+
+.about-link:hover {
+		padding: 0.5rem;
+		background-color: #0a5994;
+		color: #fff;
+		box-shadow: 0 1rem 2rem rgba(0,0,0,15);
+		transform: translateY(-2px);
+	}
+
+.about-link:active {
+		box-shadow: 0 .5rem 1rem rgba(0,0,0,15);
+		transform: translateY(0);
+	}
