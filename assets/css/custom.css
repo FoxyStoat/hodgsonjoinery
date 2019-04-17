@@ -47,12 +47,12 @@ h1 {
 
 h2 {
 	font-size: 2.8rem;
-	margin-top: 3rem;
-	color: #fff;
+	margin-top: 5rem;
+	/* color: #fff; */
 	/* font-style: italic; */
-	border: 6px #0a5994 solid;
-	max-width: 75%;
-	margin: 5rem auto;
+	/* border: 6px #0a5994 solid; */
+	/* max-width: 75%; */
+	/* margin: 5rem auto; */
 }
 
 /*----------------------------------
@@ -161,7 +161,6 @@ Photo by Simon Caspersen on Unsplash
 	color: #fff;
 }
 
-#hero-btn,
 .btn {
 	background-color: #0a5994;
   border-radius: 8px;
@@ -176,13 +175,13 @@ Photo by Simon Caspersen on Unsplash
 	transition: all .3s ease-in-out;
 }
 
-#hero-btn:hover {
+.btn:hover {
 	transform: translateY(-3px);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.6);
   color: #fff;
 }
 
-#hero-btn:active {
+.btn:active {
   transform: translateY(-1px);
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.6);
 }
@@ -252,7 +251,7 @@ MAIN
 .text {
 	font-size: 1.8rem;
 	margin: 1.5em 0;
-	color: rgb(85, 85, 85);
+	color: rgb(65, 64, 64);
 }
 
 /*----------------------------------
@@ -260,34 +259,11 @@ ABOUT SECTION
 ------------------------------------*/
 
 .section-about {
-	/* background: url(..//images/brickwall.png); */
-	background: #292C33;
-	height: 100vh;
+	background: url(..//images/brickwall.png);
 	margin-top: 0;
-}
-
-.about-image-logo {
-	width: 12rem;
-	user-select: none;
-	margin-top: 6rem;
 }
 
 .span-about {
 	color: #279af1;
-}
-
-.about-photos {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-}
-
-.about-img {
-	width: 33%;
-	height: 25%;
-}
-
-.text {
-	color: #fff;
+	font-style: italic;
 }
