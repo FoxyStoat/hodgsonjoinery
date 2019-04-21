@@ -31,14 +31,10 @@ a:link {
 /*----------------------------------
 Headings
 ------------------------------------*/
-h1,
-h2 {
+h1 {
 	text-transform: uppercase;
 	word-spacing: 3px;
 	letter-spacing: 4px;
-}
-
-h1 {
 	font-weight: 300;
 	font-size: 3.8rem;
 	word-spacing: 8px;
@@ -47,12 +43,8 @@ h1 {
 
 h2 {
 	font-size: 2.8rem;
-	margin-top: 5rem;
-	/* color: #fff; */
-	/* font-style: italic; */
-	/* border: 6px #0a5994 solid; */
-	/* max-width: 75%; */
-	/* margin: 5rem auto; */
+	margin-top: 3.5rem;
+	text-transform: uppercase;
 }
 
 /*----------------------------------
@@ -284,11 +276,11 @@ ABOUT SECTION
 		padding: 0.5rem;
 		background-color: #0a5994;
 		color: #fff;
-		box-shadow: 0 1rem 2rem rgba(0,0,0,15);
+		box-shadow: 0 1rem 2rem rgba(0,0,0, 7);
 		transform: translateY(-2px);
 	}
 
 .about-link:active {
-		box-shadow: 0 .5rem 1rem rgba(0,0,0,15);
+		box-shadow: 0 .5rem 1rem rgba(0,0,0, 7);
 		transform: translateY(0);
 	}
