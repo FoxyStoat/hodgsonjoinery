@@ -36,7 +36,7 @@ h1 {
 	word-spacing: 3px;
 	letter-spacing: 4px;
 	font-weight: 300;
-	font-size: 3.8rem;
+	font-size: 3.5rem;
 	word-spacing: 8px;
 	letter-spacing: 6px;
 }
@@ -52,7 +52,7 @@ NAVIGATION
 ------------------------------------*/
 
 .navbar {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	background-color: #000;
 	border-bottom: 2px solid rgba(92, 91, 91, 0.2);
 	position: fixed;
