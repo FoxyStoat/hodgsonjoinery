@@ -182,6 +182,10 @@ Photo by Simon Caspersen on Unsplash
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.6);
 }
 
+#hero-btn {
+	position: relative;
+}
+
 .social-media-links {
 	position: fixed;
 	width: 100%;
@@ -215,7 +219,6 @@ SCROLL-DOWN BUTTON
   font-size: 3.3rem;
   color: #fff;
   animation: MoveUpDown 1s linear infinite;
-  margin-top: 2rem;
 }
 
 .scroll-down:hover {
