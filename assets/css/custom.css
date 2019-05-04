@@ -151,7 +151,6 @@ Photo by Simon Caspersen on Unsplash
 }
 
 .tel-num {
-	display: inline-block;
 	color: #fff;
 }
 
@@ -165,7 +164,7 @@ Photo by Simon Caspersen on Unsplash
 	font-size: 1.6rem;
 	font-weight: 600;
 	padding: 1rem;
-  margin: 0.8rem;
+  margin: 2rem;
   border: 0;
 	cursor: pointer;
 	box-shadow: 7px 7px 7px rgba(0, 0, 0,0.6);
@@ -263,7 +262,6 @@ ABOUT SECTION
 
 .span-about {
 	/* color: #279af1; */
-	text-underline-position: #FFD26A;
 	font-style: italic;
 }
 
