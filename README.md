@@ -14,4 +14,4 @@ Using:
 
 ![Screenshot of website header section for mobile](screenshot-home.png "Screenshot of website header")
 
-![Screenshot of website about section for mobile](screenshot-about-section-mobile.png "Screenshot of website header")
+![Screenshot of website about section for mobile](screenshot-about-section-mobile.png "Screenshot of website about section for mobile")
