@@ -151,10 +151,12 @@ Photo by Simon Caspersen on Unsplash
 }
 
 .tel-num {
+	display: inline-block;
 	color: #fff;
 }
 
 .btn {
+	display: block;
 	/* background-color: #0a5994; */
 	background-color: #FFD26A;
   border-radius: 8px;
@@ -167,7 +169,6 @@ Photo by Simon Caspersen on Unsplash
   border: 0;
 	cursor: pointer;
 	box-shadow: 7px 7px 7px rgba(0, 0, 0,0.6);
-	display: inline-block;
 	transition: all .3s ease-in-out;
 }
 
