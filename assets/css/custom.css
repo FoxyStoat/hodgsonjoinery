@@ -215,6 +215,7 @@ SCROLL-DOWN BUTTON
   font-size: 3.3rem;
   color: #fff;
   animation: MoveUpDown 1s linear infinite;
+  margin-top: 2rem;
 }
 
 .scroll-down:hover {
