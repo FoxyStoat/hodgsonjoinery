@@ -272,28 +272,25 @@ FOOTER
 	color: #fff;
 	padding: 2rem;
 	font-size: 1.3rem;
-
-	position: relative;
+	margin-bottom: 5rem;
 }
 
 .footer-logo {
-	background-color: #5683C5;
+	background-color: #000;
 	margin-top: -1.8rem;
 }
 
 .footer-info-box {
-	padding: 1rem;
 	margin-top: 1rem;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
 .footer-info {
-	border-left: 1px;
 	list-style: none;
-
+/* 
 	flex-grow: 1;
-    flex-basis: auto;
+    flex-basis: auto; */
     margin: 0.6rem 0;
     padding: 0 1em;
     text-align: center;
@@ -336,5 +333,5 @@ Tablets
 Desktops
 ------------------------------------*/
 @media screen and (min-width: 950px) {
-	
+
 }
