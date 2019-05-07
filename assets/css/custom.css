@@ -288,29 +288,14 @@ FOOTER
 
 .footer-info {
 	list-style: none;
-/* 
-	flex-grow: 1;
-    flex-basis: auto; */
-    margin: 0.6rem 0;
-    padding: 0 1em;
-    text-align: center;
+	margin: 0.6rem 0;
+	padding: 0 1em;
+	text-align: center;
 }
 
 .footer-company-name {
 	color: #ffd26a;
 	font-style: italic;
-}
-
-.footer-social-media-links {
-	display: flex;
-	justify-content: space-between;
-}
-
-.footer-social-links {
-	color: #ffd26a;
-	padding: 1rem;
-	margin: 1rem;
-	font-size: 1.6rem;
 }
 
 /*----------------------------------
