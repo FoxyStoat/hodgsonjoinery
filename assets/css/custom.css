@@ -259,3 +259,62 @@ ABOUT SECTION
 	font-style: italic;
 	font-weight: 600;
 }
+
+/*----------------------------------
+FOOTER
+------------------------------------*/
+
+.footer {
+	background: #282C2F;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
+	padding: 2rem;
+	font-size: 1.3rem;
+
+	position: relative;
+}
+
+.footer-logo {
+	background-color: #5683C5;
+	margin-top: -1.8rem;
+}
+
+.footer-info-box {
+	padding: 1rem;
+	margin-top: 1rem;
+	/* display: flex; */
+	/* flex-direction: row wrap; */
+	justify-content: space-between;
+	margin-left: -1px;
+	flex-wrap: wrap;
+}
+
+.footer-info {
+	border-left: 1px;
+	list-style: none;
+
+	flex-grow: 1;
+    flex-basis: auto;
+    margin: .25em 0;
+    padding: 0 1em;
+    text-align: center;
+}
+
+.footer-company-name {
+	color: #5683C5;
+	margin: 0.8rem;
+}
+
+.footer-social-media-links {
+	display: flex;
+	justify-content: space-between;
+	margin: 1rem;
+}
+
+.footer-social-links {
+	color: #ffd26a;
+	padding: 1rem;
+	margin: 0.5rem;
+}
