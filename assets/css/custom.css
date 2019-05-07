@@ -284,10 +284,7 @@ FOOTER
 .footer-info-box {
 	padding: 1rem;
 	margin-top: 1rem;
-	/* display: flex; */
-	/* flex-direction: row wrap; */
 	justify-content: space-between;
-	margin-left: -1px;
 	flex-wrap: wrap;
 }
 
@@ -297,14 +294,15 @@ FOOTER
 
 	flex-grow: 1;
     flex-basis: auto;
-    margin: .25em 0;
+    margin: 0.6rem 0;
     padding: 0 1em;
     text-align: center;
 }
 
 .footer-company-name {
-	color: #5683C5;
+	color: #ffd26a;
 	margin: 0.8rem;
+	font-style: italic;
 }
 
 .footer-social-media-links {
@@ -316,5 +314,20 @@ FOOTER
 .footer-social-links {
 	color: #ffd26a;
 	padding: 1rem;
-	margin: 0.5rem;
+	margin: 1rem;
+	font-size: 1.6rem;
+}
+
+/*----------------------------------
+Media Queries
+------------------------------------*/
+
+/*----------------------------------
+Tablets
+------------------------------------*/
+@media screen and (min-width: 600px) {
+	.footer-info-box {
+		display: flex;
+	    flex-direction: row wrap;
+	}
 }
