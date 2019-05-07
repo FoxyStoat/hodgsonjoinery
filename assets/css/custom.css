@@ -297,15 +297,13 @@ FOOTER
 }
 
 .footer-company-name {
-	/* color: #ffd26a; */
-	/* margin: 0.8rem; */
+	color: #ffd26a;
 	font-style: italic;
 }
 
 .footer-social-media-links {
 	display: flex;
 	justify-content: space-between;
-	/* margin-right: 1rem; */
 }
 
 .footer-social-links {
