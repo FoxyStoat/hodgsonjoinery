@@ -300,15 +300,15 @@ FOOTER
 }
 
 .footer-company-name {
-	color: #ffd26a;
-	margin: 0.8rem;
+	/* color: #ffd26a; */
+	/* margin: 0.8rem; */
 	font-style: italic;
 }
 
 .footer-social-media-links {
 	display: flex;
 	justify-content: space-between;
-	margin: 1rem;
+	/* margin-right: 1rem; */
 }
 
 .footer-social-links {
@@ -330,4 +330,11 @@ Tablets
 		display: flex;
 	    flex-direction: row wrap;
 	}
+}
+
+/*----------------------------------
+Desktops
+------------------------------------*/
+@media screen and (min-width: 950px) {
+	
 }
