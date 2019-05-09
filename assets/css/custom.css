@@ -320,6 +320,7 @@ Tablets
 Desktops
 ------------------------------------*/
 @media screen and (min-width: 950px) {
+	/* NAVIGATION */
 	.navbar {
 		display: flex;
 		justify-content: flex-end;
@@ -337,5 +338,10 @@ Desktops
 
 	.navbar-toggle {
 		display: none;
+	}
+
+	/* HEADER TEXT */
+	h1 {
+		font-size: 5rem;
 	}
 }
