@@ -320,5 +320,22 @@ Tablets
 Desktops
 ------------------------------------*/
 @media screen and (min-width: 950px) {
+	.navbar {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
 
+	.logo-box {
+		margin-right: auto;
+	}
+	
+	.main-nav {
+		display: flex;
+		margin-right: 5rem;
+	}
+
+	.navbar-toggle {
+		display: none;
+	}
 }
