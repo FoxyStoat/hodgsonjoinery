@@ -102,6 +102,23 @@ NAVIGATION
 	color: #ffd26a;
 }
 
+.social-media-links {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background: #131112;
+	display: flex;
+	justify-content: space-around;
+	padding: 1.5rem;
+	border-top: 2px solid rgba(92, 91, 91, 0.2);
+}
+
+.social-links,
+.social-links:visited {
+	color: #ffd26a;
+	font-size: 1.6rem;
+}
+
 /*----------------------------------
 HEADER
 ------------------------------------*/
@@ -183,23 +200,6 @@ Photo by Simon Caspersen on Unsplash
 
 #hero-btn {
 	position: relative;
-}
-
-.social-media-links {
-	position: fixed;
-	width: 100%;
-	bottom: 0;
-	background: #131112;
-	display: flex;
-	justify-content: space-around;
-	padding: 1.5rem;
-	border-top: 2px solid rgba(92, 91, 91, 0.2);
-}
-
-.social-links,
-.social-links:visited {
-	color: #ffd26a;
-	font-size: 1.6rem;
 }
 
 /*----------------------------------
@@ -363,5 +363,10 @@ Desktops
 	.tel-num {
 		font-size: 2.2rem;
 		font-weight: 300;
-  }
+	}
+	
+	/* SOCIAL MEDIA LINKS */
+	.social-links {
+		font-size: 1.8rem;
+	}
 }
