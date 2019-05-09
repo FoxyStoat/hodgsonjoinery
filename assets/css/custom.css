@@ -320,6 +320,9 @@ Tablets
 Desktops
 ------------------------------------*/
 @media screen and (min-width: 950px) {
+	.logo {
+		width: 12rem;
+	}
 	/* NAVIGATION */
 	.navbar {
 		display: flex;
@@ -342,6 +345,12 @@ Desktops
 
 	/* HEADER TEXT */
 	h1 {
-		font-size: 5rem;
+		font-size: 4.5rem;
 	}
+
+	.hero-paragrapgh,
+	.tel-num {
+		font-size: 2.2rem;
+		font-weight: 400;
+  }
 }
