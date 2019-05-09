@@ -310,9 +310,20 @@ Media Queries
 Tablets
 ------------------------------------*/
 @media screen and (min-width: 600px) {
+	/* HEADER TEXT */
+	h1 {
+		font-size: 3.5rem;
+	}
+
+	.hero-paragrapgh,
+	.tel-num {
+		font-size: 1.8rem;
+		font-weight: 300;
+  }
+
 	.footer-info-box {
 		display: flex;
-	    flex-direction: row wrap;
+	  flex-direction: row wrap;
 	}
 }
 
@@ -351,6 +362,6 @@ Desktops
 	.hero-paragrapgh,
 	.tel-num {
 		font-size: 2.2rem;
-		font-weight: 400;
+		font-weight: 300;
   }
 }
