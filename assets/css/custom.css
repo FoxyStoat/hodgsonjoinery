@@ -237,7 +237,7 @@ MAIN
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 6em auto;
+	/* margin: 6em auto; */
 	text-align: center;
 	width: 100%;
 	padding: 2em;
@@ -255,7 +255,6 @@ ABOUT SECTION
 
 .section-about {
 	background: url(..//images/brickwall.png);
-	margin-top: 0;
 }
 
 .span-about {
