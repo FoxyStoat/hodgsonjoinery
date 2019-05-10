@@ -116,9 +116,9 @@ NAVIGATION
 }
 
 .nav-link a {
-  text-decoration: none;
+	text-decoration: none;
 	text-transform: uppercase;
-  padding: 1.8rem;
+	padding: 1.8rem;
 	cursor: pointer;
 	color: #fff;
 }
@@ -198,7 +198,7 @@ Photo by Simon Caspersen on Unsplash
 	color: #fff;
 }
 
-#hero-btn {
+#hero-btn-mobile {
 	position: relative;
 }
 
@@ -304,6 +304,7 @@ FOOTER
 /*----------------------------------
 Media Queries
 ------------------------------------*/
+
 
 /*----------------------------------
 Tablets
