@@ -268,7 +268,11 @@ TESTIMONIALS SECTION
 ------------------------------------*/
 
 .section-testimonials {
-	margin: 6rem;
+	
+}
+
+.testimonial-stories {
+	margin: 0 4rem 6rem;
 }
 
 .testimonial-text::before {
@@ -277,9 +281,15 @@ TESTIMONIALS SECTION
 	font-family: georgia, serif;
 	font-size: 8em;
 	position: absolute;
-	left: -0.25em;
+	left: -1.5rem;
 	top: 0.35em;
 	z-index: -10;
+}
+
+.testimonial-footer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
 }
 
 .testimonial-author,
@@ -287,17 +297,15 @@ TESTIMONIALS SECTION
 	font-size: 1.4rem;
 	color: #595756;
 	font-weight: bold;
-	margin: 2em 0;
-	margin-left: 38px;
+	margin-left: 3.8rem;
 }
 
 .testimonial-text {
-	/* color: #666; */
+	padding-top: 2rem;
 	line-height: 1.3em;
-	padding-top: 1em;
 	position: relative;
-	z-index: 1;
-	margin-bottom: 0.75em;
+	z-index: -1;
+	margin-bottom: 0.75rem;
 	}
 
 /*----------------------------------
@@ -316,9 +324,9 @@ FOOTER
 }
 
 .footer-logo-box {
-		background-color: #000;
-		margin-top: -3.5rem;
-		padding: 1rem;
+	background-color: #000;
+	margin-top: -3.5rem;
+	padding: 1rem;
 }
 
 .footer-info-box {
