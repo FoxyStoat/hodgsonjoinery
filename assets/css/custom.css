@@ -267,13 +267,18 @@ ABOUT SECTION
 TESTIMONIALS SECTION
 ------------------------------------*/
 
-.section-testimonials {
-	
-}
-
 .testimonial-stories {
 	margin: 0 4rem 6rem;
 }
+
+.testimonial-stories figure {
+	border: 10px solid #ffd26a;
+	margin: 3rem;
+	/* z-index: -2; */
+	/* position: relative; */
+	padding: 3rem;
+}
+
 
 .testimonial-text::before {
 	content: "“";
@@ -306,7 +311,7 @@ TESTIMONIALS SECTION
 	position: relative;
 	z-index: -1;
 	margin-bottom: 0.75rem;
-	}
+}
 
 /*----------------------------------
 FOOTER
@@ -418,5 +423,13 @@ Desktops
 	/* SOCIAL MEDIA LINKS */
 	.social-links {
 		font-size: 1.8rem;
+	}
+
+	/* TESTIMONIALS */
+	.testimonial-stories {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin-right: 2rem;
 	}
 }
