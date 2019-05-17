@@ -77,6 +77,10 @@ h2 {
 	text-transform: uppercase;
 	text-align: center;
 }
+/* 
+h2:hover {
+	transform: skewY(2deg) skewX(15deg);
+} */
 
 /*----------------------------------
 NAVIGATION
@@ -143,6 +147,11 @@ NAVIGATION
 .social-links:visited {
 	color: #ffd26a;
 	font-size: 1.6rem;
+}
+
+.social-links:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(1.5);
 }
 
 /*----------------------------------
