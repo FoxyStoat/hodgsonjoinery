@@ -278,6 +278,47 @@ ABOUT SECTION
 }
 
 /*----------------------------------
+GALLERY SECTION
+------------------------------------*/
+
+/* .section-gallery {
+	position: relative;
+	z-index: -1;
+} */
+
+.gallery-showcase {
+	list-style: none;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.gallery-showcase li {
+	width: 25%;
+}
+
+.gallery-photo {
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	background-color: #000;
+}
+
+.gallery-photo img {
+	opacity: 0.7;
+	width: 100%;
+	height: auto;
+	transform: scale(1.15);
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+.gallery-photo img:hover {
+	opacity: 1;
+	width: 100%;
+	transform: scale(1.10);
+}
+
+/*----------------------------------
 TESTIMONIALS SECTION
 ------------------------------------*/
 
@@ -288,8 +329,8 @@ TESTIMONIALS SECTION
 .testimonial-stories figure {
 	border: 10px solid #ffd26a;
 	margin: 3rem;
-	/* z-index: -2; */
-	/* position: relative; */
+	/* z-index: -2;
+	position: relative; */
 	padding: 3rem;
 }
 
@@ -302,7 +343,7 @@ TESTIMONIALS SECTION
 	position: absolute;
 	left: -1.5rem;
 	top: 0.35em;
-	z-index: -10;
+	z-index: -2;
 }
 
 .testimonial-footer {
@@ -321,7 +362,7 @@ TESTIMONIALS SECTION
 
 .testimonial-text {
 	padding-top: 2rem;
-	line-height: 1.3em;
+	line-height: 2.5rem;
 	position: relative;
 	z-index: -1;
 	margin-bottom: 0.75rem;
@@ -366,8 +407,10 @@ FOOTER
 	font-style: italic;
 }
 
-/*----------------------------------
+/*-----------------------------------
+-------------------------------------
 Media Queries
+-------------------------------------
 ------------------------------------*/
 
 
