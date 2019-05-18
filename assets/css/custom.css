@@ -146,6 +146,7 @@ NAVIGATION
 	justify-content: space-around;
 	padding: 1.5rem;
 	border-top: 2px solid rgba(92, 91, 91, 0.2);
+	z-index: 100;
 }
 
 .social-links,
@@ -281,11 +282,6 @@ ABOUT SECTION
 GALLERY SECTION
 ------------------------------------*/
 
-/* .section-gallery {
-	position: relative;
-	z-index: -1;
-} */
-
 .gallery-showcase {
 	list-style: none;
 	width: 100%;
@@ -329,8 +325,6 @@ TESTIMONIALS SECTION
 .testimonial-stories figure {
 	border: 10px solid #ffd26a;
 	margin: 3rem;
-	/* z-index: -2;
-	position: relative; */
 	padding: 3rem;
 }
 
