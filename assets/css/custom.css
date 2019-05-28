@@ -310,13 +310,12 @@ SERVICES SECTION
 
 .service-images-container {
 	display: flex;
-	justify-content: space-around;
 	align-items: center;
 }
 
 .services-img {
-	max-width: 33.333%; /* fallback if needed */
-	width: calc(100% - 33.333%);
+	max-width: 33.333%; /*fallback if needed*/
+	/* width: calc(100% - 3); */
 }
 
 /*----------------------------------
