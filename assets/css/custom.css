@@ -77,7 +77,7 @@ h2 {
 	text-transform: uppercase;
 	text-align: center;
 }
-/* 
+/*
 h2:hover {
 	transform: skewY(2deg) skewX(15deg);
 } */
@@ -279,6 +279,45 @@ ABOUT SECTION
 }
 
 /*----------------------------------
+SERVICES SECTION
+------------------------------------*/
+
+.section-services {
+
+}
+
+.services-container {
+	display: flex;
+
+}
+
+.services-text {
+	padding: 2em;
+	font-size: 1.8rem;
+	margin: 1.5em 0;
+
+	/* color: rgb(65, 64, 64); */
+}
+
+.joinery-services {
+	background: #000;
+	color: #fff;
+	width: 50%;
+}
+
+.locksmithing-services {
+	background: #ffd26a;
+	color: #000;
+	width: 50%;
+}
+
+.services-img {
+	margin: 0;
+	width: 33%; /* fallback if needed */
+  width: calc(100% - 3);
+}
+
+/*----------------------------------
 GALLERY SECTION
 ------------------------------------*/
 
@@ -416,7 +455,7 @@ Tablets
 	h1 {
 		font-size: 3.5rem;
 	}
-		
+
 	h2 {
 		font-size: 2.8rem;
 	}
@@ -450,7 +489,7 @@ Desktops
 	.logo-box {
 		margin-right: auto;
 	}
-	
+
 	.main-nav {
 		display: flex;
 		margin-right: 5rem;
@@ -470,7 +509,7 @@ Desktops
 		font-size: 2.2rem;
 		font-weight: 300;
 	}
-	
+
 	/* SOCIAL MEDIA LINKS */
 	.social-links {
 		font-size: 1.8rem;
