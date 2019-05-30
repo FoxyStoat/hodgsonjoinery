@@ -314,8 +314,20 @@ SERVICES SECTION
 }
 
 .services-img {
-	max-width: 33.333%; /*fallback if needed*/
-	/* width: calc(100% - 3); */
+	max-width: 33.333%;
+}
+
+.services-icon {
+	font-size: 5rem;
+	color: #fff;
+}
+
+.tool-icon {
+	color: #fff;
+}
+
+.lock-icon {
+	color: #000;
 }
 
 /*----------------------------------
@@ -414,7 +426,7 @@ FOOTER
 	color: #fff;
 	padding: 2rem;
 	font-size: 1.3rem;
-	margin-bottom: 5rem;
+	margin: 5rem 0;
 }
 
 .footer-logo-box {
