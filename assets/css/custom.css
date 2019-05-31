@@ -141,7 +141,7 @@ NAVIGATION
 	position: fixed;
 	width: 100%;
 	bottom: 0;
-	background: #131112;
+	background: #000;
 	display: flex;
 	justify-content: space-around;
 	padding: 1.5rem;
@@ -319,7 +319,6 @@ SERVICES SECTION
 
 .services-icon {
 	font-size: 5rem;
-	color: #fff;
 }
 
 .tool-icon {
