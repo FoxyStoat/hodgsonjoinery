@@ -548,4 +548,8 @@ Desktops
 		justify-content: space-evenly;
 		margin-right: 2rem;
 	}
+
+	.footer {
+		font-size: 1.8rem;
+	}
 }
