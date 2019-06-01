@@ -253,10 +253,9 @@ MAIN
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* margin: 6em auto; */
 	text-align: center;
 	width: 100%;
-	padding: 2em;
+	padding: 8.5em 8em;
 }
 
 .text {
@@ -281,9 +280,6 @@ ABOUT SECTION
 /*----------------------------------
 SERVICES SECTION
 ------------------------------------*/
-
-.section-services {
-}
 
 .services-container {
 	display: flex;
@@ -378,7 +374,6 @@ TESTIMONIALS SECTION
 	margin: 3rem;
 	padding: 3rem;
 }
-
 
 .testimonial-text::before {
 	content: "“";
