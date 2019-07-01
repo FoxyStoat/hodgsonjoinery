@@ -485,6 +485,7 @@ Media Queries
 /*----------------------------------
 Tablets
 ------------------------------------*/
+
 @media screen and (min-width: 600px) {
 	/* HEADER TEXT */
 	h1 {
@@ -505,7 +506,9 @@ Tablets
 		display: flex;
 	  flex-direction: row wrap;
 	}
-
+}
+/* ///////////////////////////////////////// */
+@media screen and (min-width: 800px) {
 	/* Services Section */
 	.services-container {
 		display: flex;
