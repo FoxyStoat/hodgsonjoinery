@@ -278,6 +278,11 @@ ABOUT SECTION
 	font-weight: 600;
 }
 
+.about-link-to-services {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
 /*----------------------------------
 SERVICES SECTION
 ------------------------------------*/
