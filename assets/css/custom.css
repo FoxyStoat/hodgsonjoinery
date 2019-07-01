@@ -214,8 +214,9 @@ Photo by Simon Caspersen on Unsplash
 	color: #fff;
 }
 
-#hero-btn-mobile {
-	position: relative;
+/* Don't show the desktop button on mobile */
+#hero-btn-lg-screen {
+	display: none;
 }
 
 /*----------------------------------
@@ -452,7 +453,18 @@ FOOTER
 Media Queries
 -------------------------------------
 ------------------------------------*/
-
+/* LARGE SCREEN BUTTON */
+@media screen and (min-width: 481px) {
+	/* Hide the mobile telephone button */
+	#hero-btn-mobile {
+		display: none;
+	}
+	/* Display the services button instead */
+	#hero-btn-lg-screen {
+		display: inline-block;
+		position: relative;
+	}
+}
 
 /*----------------------------------
 Tablets
