@@ -500,7 +500,7 @@ Tablets
 	.tel-num {
 		font-size: 1.8rem;
 		font-weight: 300;
-  }
+	}
 
 	.footer-info-box {
 		display: flex;
@@ -567,15 +567,17 @@ Desktops
 		font-size: 1.8rem;
 	}
 
-	/* TESTIMONIALS */
+	.footer {
+		font-size: 1.8rem;
+	}
+}
+
+@media screen and (min-width: 1250px) {
+		/* TESTIMONIALS */
 	.testimonial-stories {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
 		margin-right: 2rem;
-	}
-
-	.footer {
-		font-size: 1.8rem;
 	}
 }
