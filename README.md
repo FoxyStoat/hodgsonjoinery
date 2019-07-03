@@ -10,6 +10,8 @@ Using:
 * CSS
 * JavaScript
 
+View Deployment from GitHub [here](https://foxystoat.github.io/hodgsonjoinery/)
+
 ### Screenshots of Website so far:
 
 ![Screenshot of website header section for mobile](screenshot-home.png "Screenshot of website header")
