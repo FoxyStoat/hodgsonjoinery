@@ -10,7 +10,7 @@ Using:
 * CSS
 * JavaScript
 
-View Deployment from GitHub [here](https://foxystoat.github.io/hodgsonjoinery/)
+View Deployment of finished site [here](https://hodgsonjoinery.com)
 
 ### Screenshots of Website so far:
 
