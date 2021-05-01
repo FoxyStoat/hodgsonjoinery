@@ -10,7 +10,7 @@ Using:
 * CSS
 * JavaScript
 
-View Deployment of finished site [here](https://hodgsonjoinery.com)
+View Deployment of finished site [here](http://hodgsonjoinery.com)
 
 ### Screenshots of Website so far:
 
