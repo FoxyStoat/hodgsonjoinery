@@ -14,6 +14,4 @@ View Deployment of finished site [here](http://hodgsonjoinery.com)
 
 ### Screenshots of Website so far:
 
-![Screenshot of website header section for mobile](screenshot-home.png "Screenshot of website header")
-
-![Screenshot of website about section for mobile](screenshot-about-section-mobile.png "Screenshot of website about section for mobile")
+![Screenshot of website desktop view](hodgsonjoinery-full-screenshot.png "Screenshot of full website desktop view")
